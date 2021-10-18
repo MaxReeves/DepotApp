@@ -9,7 +9,6 @@ class CreateSupportRequests < ActiveRecord::Migration[6.0]
         foreign_key: true,
         comment: "their most recent order, if applicable"
 
-
       t.timestamps
     end
   end
